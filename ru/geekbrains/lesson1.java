@@ -92,22 +92,22 @@ public class lesson1 {
             int[] numbers;
             switch (operation) {
                 case "+":
-                    numbers = library.getValues(2, "число");
+                    numbers = library.getNumbers(2, "число");
                     System.out.printf("%d + %d = %d.\n", numbers[0],
                             numbers[1], numbers[0] + numbers[1]);
                     break;
                 case "-":
-                    numbers = library.getValues(2, "число");
+                    numbers = library.getNumbers(2, "число");
                     System.out.printf("%d - %d = %d.\n", numbers[0],
                             numbers[1], numbers[0] - numbers[1]);
                     break;
                 case "*":
-                    numbers = library.getValues(2, "число");
+                    numbers = library.getNumbers(2, "число");
                     System.out.printf("%d * %d = %d.\n", numbers[0],
                             numbers[1], numbers[0] * numbers[1]);
                     break;
                 case "/":
-                    numbers = library.getValues(2, "число");
+                    numbers = library.getNumbers(2, "число");
                     System.out.printf("%d / %d = %d.\n", numbers[0],
                             numbers[1], numbers[0] / numbers[1]);
                     break;
